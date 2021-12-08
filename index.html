@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset='UTF-8'>
+    <link rel="stylesheet" href="style.css">
+    <title>Javascript Library</title>
+  </head>
+  <body>
+    <main class='container'>
+      <form onsubmit="event.preventDefault();" class="form">
+        <div class="input1">
+        <label id="first">Titre
+         <input type='text' name='titre' id='titre' placeholder='titre' required maxlength="30" />
+        </label>
+        <div it='titre1'></div>
+        <br><br>
+        <label>Auteur 
+        <input type='text' name='auteur' id='auteur' placeholder='auteur' required maxlength="30"/>
+        </label>
+     <br><br>
+        <label>Prix
+      <input type='phone' name='Prix' id='prix' placeholder='Prix' required />
+        </label>
+        <br><br>
+        <label>date de publication
+         
+    <input type="date" name="date" id='date' required>
+          </div>
+         <br><br>
+          <label>
+            <select name='langue' id='langue' required> 
+               <option value='anglais' required id='anglais'>Anglais</option>
+              <option value='Francais' required id='francais'>Francais</option>
+              <option value='Arabe' required id='arabe'>Arabe</option>
+            
+              
+        </label></select>
+           <br/><br>
+            <div class="input2">
+              <input type='radio' id='roman' value='Roman'  name='fav'>
+            <label for='roman'>Roman</label>
+            
+            <input type='radio' id='essai' value='Essai'   name='fav'>
+            <label for='essai'>Essai</label>
+            
+            <input type='radio' id='bandle' value='bandle'   name='fav'>
+            <label for='bandle'>Bande-Dessinée</label>
+            </div>
+           
+             
+      </form>
+          
+          <div class="buttons">
+            <button id='submit1'>Submit</button>
+          </div>
+          <br><br><br>
+          
+                <table class="table" id="list">
+            <thead>
+                        <tr>
+                            <th>Titre</th>
+                            <th>Auteur</th>
+                            <th>Prix</th>
+                            <th>Langue</th>
+                            <th>List</th>
+                            <th>Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+          </div>
+            <br>
+        <script src="script1.js"></script.js>
+        </body>
+      
+      </html>
+    
